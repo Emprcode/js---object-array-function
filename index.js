@@ -2,13 +2,13 @@ console.log("Hello world");
 
 // Objects:
 
-let person = {
-    name: "Narayan",
-    age: 22
-};
+// let person = {
+//     name: "Narayan",
+//     age: 22
+// };
 
-person.name = "Aryal";
-console.log(person);
+// person.name = "Aryal";
+// console.log(person);
 
 
 // Array;
