@@ -77,3 +77,44 @@ function square(number){
 
 let result = square(2);
 console.log(result);
+
+
+setTimeout(() => {
+    console.log("Subscribe this website");
+
+}, 3000);
+
+setTimeout(() => {
+    console.log("YOU are ");
+}, 2000);
+
+let i = 0;
+const timer = setInterval(() => {
+    console.log("Hey", i);
+    i++;
+
+    if(i === 10){
+        clearInterval(timer);
+    }
+}, 2000);
+
+let name =  "Tom";
+let address = "Australia";
+
+
+
+const details = ` Hi my name is ${name}. I live in ${address}`;
+
+console.log(details);
+
+
+for(i = 0; i < 10; i++){
+    if( i / 2 > 3 ){
+        console.log(i);
+    }}
+
+    for (i = 0; i < 100; i++){
+        if (i*2 < 50){
+            console.log(Math.ceil(Math.random(i ) * 100));
+        }
+    }
