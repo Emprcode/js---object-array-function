@@ -118,3 +118,14 @@ for(i = 0; i < 10; i++){
             console.log(Math.ceil(Math.random(i ) * 100));
         }
     }
+
+    
+const fruits = ['apple', 'banana', 'pineapple', 'orange'];
+const vegies = [ 'potato', 'cauli'];
+const food = [...fruits, ...vegies];
+
+const newFood = food.every((item, i) => {
+    return item .includes('a')
+})
+console.log(newFood);
+
