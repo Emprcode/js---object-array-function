@@ -196,3 +196,34 @@ for (let i = 0; i < result.length; i++){
     }
     console.log(uniqueValue);
 }
+
+class pets {
+        constructor(name, owner, dob){
+            this.name = "name";
+            this.owner = "owner";
+    
+        }
+        who(){
+            return `This ${this.name} belongs to ${this.owner}`
+        }
+    }
+    console.log(pets);
+    
+    const add = (a,b)=>{
+        return a+b
+        
+    }
+    sum = add(4, 6)
+    console.log(sum);
+    
+    let j = 0;
+    const callMe = (j) => {
+        console.log("calling" + j)
+        j++;
+    
+        if(j === 10){
+            return j;
+        }else{
+            return callMe();
+        }
+    }
